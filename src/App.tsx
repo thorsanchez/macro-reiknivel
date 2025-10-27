@@ -58,15 +58,15 @@ function App() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-orange-500">{macros.calories}</div>
-                  <div className="text-sm text-gray-600">Kal</div>
+                  <div className="text-sm text-gray-600">Kaloríur</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-red-500">{macros.protein_g}g</div>
-                  <div className="text-sm text-gray-600">Pro</div>
+                  <div className="text-sm text-gray-600">Prótein</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-500">{macros.carbs_g}g</div>
-                  <div className="text-sm text-gray-600">Kolv</div>
+                  <div className="text-sm text-gray-600">Kolvetni</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-yellow-500">{macros.fat_g}g</div>
